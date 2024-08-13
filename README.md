@@ -248,3 +248,14 @@ Processes the provided URL to fetch and return various details.
 To run the api start with the following command :
 ```sh
 uvicorn main:app --reload
+
+---
+url:
+http://127.0.0.1:8000/url
+
+
+Input api with in the following format :
+```sh
+{
+    "website_url":"https://www.cbd.ae/"
+}
