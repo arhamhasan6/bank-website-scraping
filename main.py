@@ -66,7 +66,7 @@ async def upload_url(request: URLRequest):
         # Call the second function
         try:
             result_2 = hq.hq_loc(validated_url)
-            data["hq"] = result_2
+            data["headquarter"] = result_2
         except ValueError as e:
             raise HTTPException(status_code=422, detail=f"Error in function 2: {str(e)}")
         except Exception as e:
