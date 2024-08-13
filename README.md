@@ -255,7 +255,7 @@ http://127.0.0.1:8000/url
 
 
 Input api with in the following format :
-```sh
+
 {
     "website_url":"https://www.cbd.ae/"
 }
